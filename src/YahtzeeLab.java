@@ -2,6 +2,11 @@ import java.util.ArrayList;
 
 public class YahtzeeLab {
 	
+//	Riley  and Golam
+// this lab was kinda lost on me personally
+// i think Golam didn't understand it too much either
+// definetly gonna have to go back and look at this more.
+	
 	private ArrayList<Rolls> items = new ArrayList<>();
 
 	public void add(int roll) {
@@ -14,7 +19,7 @@ public class YahtzeeLab {
 		for (Rolls rollie : items) {
 			sum = rollie.roll;
 		}
-		return sum;
+		return sum;		
 	}
 	
 	public int getYaht() {
